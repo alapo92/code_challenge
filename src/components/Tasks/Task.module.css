@@ -1,0 +1,34 @@
+.task {
+  font-size: 24px;
+  padding: 1rem;
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.task button {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.task button:hover {
+  border: 4px solid #97a7bf;
+}
+
+.task_text {
+  width: 350px;
+  align-self: center;
+}
+
+.button_edit {
+  background: #30e230;
+}
+
+.button_delete {
+  background: #e28f30;
+}
